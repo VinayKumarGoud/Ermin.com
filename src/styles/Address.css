@@ -1,0 +1,461 @@
+.preorder_nav-item a #active {
+    border-bottom: 3px solid white;
+}
+
+#Address_img {
+    width: 100%;
+}
+
+.Address_table2 {
+    background-color: #0E0F11;
+    height: 100%;
+}
+
+.preorder_table2 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -60px;
+}
+
+.Address_table2_flex {
+    width: 80%;
+    margin-left: 12%;
+    display: flex;
+}
+
+.Address_table2 h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFE;
+    margin-left: -8%;
+    padding-top: 60px;
+}
+
+.Address_table2 .input_container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Address_table2 .Contactus_table1_inputbox h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFE;
+    margin-top: 24px;
+}
+
+.Contactus_table1_inputbox input {
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    width: 650px;
+    height: 50px;
+    margin-top: -150px;
+}
+
+.container {
+    display: flex;
+    width: 650px;
+    margin-left: -1%;
+}
+
+.container .Contactus_table1_inputbox>input {
+    width: 310px;
+}
+
+#phone_number {
+    margin-left: 30px;
+}
+
+.Address_table2 .input_container .Contactus_table1_inputbox>select {
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    width: 654px;
+    height: 50px;
+    margin-top: -150px;
+    padding-left: 20px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.cart {
+    width: 215px;
+    margin-right: 20px;
+}
+
+.price {
+    background-color: #121416;
+    position: relative;
+}
+
+.dropdown_price_info {
+    width: 352px;
+    height: 300px;
+    background: #121416;
+    border-radius: 16px;
+    margin-top: 75px;
+}
+
+.dropdown_price_info_toggle {
+    width: 352px;
+    height: 300px;
+    background: #121416;
+    border-radius: 16px;
+    margin-top: 75px;
+}
+
+.dropdown_price_info_toggle h2 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    padding-top: 25px;
+    margin-left: 25px;
+    color: #FFFFFE;
+}
+
+.dropdown_price_info h2 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    padding-top: 25px;
+    margin-left: 25px;
+    color: #FFFFFE;
+}
+
+#dropdown_close {
+    margin-left: 85%;
+    margin-top: -30%;
+}
+
+.dropdown_price_info .dropdown_price_item1 {
+    width: 320px;
+    height: 54px;
+    background: #414345;
+    margin-left: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown_price_info .dropdown_price_item1 {
+    margin-top: 40px;
+}
+
+.dropdown_price_item1 h3 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.dropdown_price_item1 h4 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+    margin-top: 5px;
+}
+
+.dropdown_price_item1 img {
+    width: 13.5px;
+    height: 15px;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+.dropdown_price_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 34px;
+    margin-top: 16px;
+}
+
+.dropdown_price_item h3 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+    margin-left: 16px;
+}
+
+.dropdown_price_item h4 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+}
+
+.dropdown_price_line {
+    margin-top: 66px;
+    margin-left: 16px;
+    width: 320px;
+    height: 2px;
+    background: #333333;
+}
+
+.dropdown_price_total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 34px;
+    margin-top: 16px;
+}
+
+.dropdown_price_total h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+}
+
+.dropdown_price_total h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1.25px;
+    color: #FFFFFE;
+}
+
+.shipping_address_btn {
+    padding-bottom: 60px;
+    margin-left: -10%;
+}
+
+#shipping_address_btn {
+    background: #2962FF;
+    border-radius: 100px;
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+@media screen and (max-width:100vw) {
+    .price {
+        display: none;
+    }
+    #dropdown_close {
+        display: none;
+    }
+    .dropdown_price_info {
+        display: block;
+    }
+    .dropdown_price_info_toggle {
+        display: none;
+    }
+    #shipping_address_btn {
+        background: #2962FF;
+        border-radius: 100px;
+        width: 30%;
+        
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .Contactus_table1_inputbox input {
+        background: #121416;
+        border: 1px solid rgba(255, 255, 254, 0.2);
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: white;
+        width: 500px;
+        height: 50px;
+        margin-top: -150px;
+    }
+    .container {
+        display: flex;
+        width: 500px;
+        margin-left: -1%;
+        /* justify-content: space-between; */
+    }
+    .container .Contactus_table1_inputbox>input {
+        width: 230px;
+    }
+    .Address_table2 .input_container .Contactus_table1_inputbox>select {
+        width: 504px;
+    }
+    .dropdown_price_info {
+        margin-left: -45px;
+    }
+    #shipping_address_btn {
+        background: #2962FF;
+        border-radius: 100px;
+        width: 40%;
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Contactus_table1_inputbox input {
+        width: 620px;
+    }
+    #dropdown_close {
+        display: block;
+    }
+    .price {
+        display: block;
+        width: 215px;
+        height: 54px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .price_dropdown_img {
+        width: 15px;
+        height: 9px;
+        margin-left: -60px;
+        margin-top: -10px;
+    }
+    .price h2 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 1.25px;
+        color: #FFFFFE;
+    }
+    .container {
+        display: flex;
+        width: 610px;
+        margin-left: -1%;
+        /* justify-content: space-between; */
+    }
+    .container .Contactus_table1_inputbox>input {
+        width: 290px;
+    }
+    .Address_table2 .input_container .Contactus_table1_inputbox>select {
+        width: 614px;
+    }
+    .dropdown_price_info {
+        display: none;
+    }
+    .dropdown_price_info_toggle {
+        display: block;
+        position: absolute;
+        margin-left: -135px;
+        margin-top: -80px;
+        height: 300px;
+    }
+    .dropdown_price_info_toggle #dropdown_close {
+        margin-top: -37px;
+        margin-left: 290px;
+        width: 15px;
+        height: 15px;
+    }
+    .dropdown_price_info_toggle .dropdown_price_item1 {
+        margin-top: 50px;
+        width: 320px;
+        height: 54px;
+        background: #414345;
+        margin-left: 16px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #shipping_address_btn {
+        background: #2962FF;
+        border-radius: 100px;
+        width: 80%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Address_table2 h1 {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 55px;
+        color: #FFFFFE;
+    }
+    .Contactus_table1_inputbox input {
+        width: 330px;
+    }
+    .Address_table2 .Contactus_table1_inputbox h4 {
+        width: 154px;
+    }
+    .container {
+        display: flex;
+        width: 330px;
+        margin-left: -5%;
+        flex-direction: column;
+    }
+    #phone_number {
+        margin-left: -0px;
+    }
+    .container .Contactus_table1_inputbox>input {
+        width: 330px;
+    }
+    .Address_table2 .input_container .Contactus_table1_inputbox>select {
+        width: 330px;
+    }
+    .price {
+        width: 330px;
+        margin-top: 20px;
+        margin-left: -235px;
+    }
+    .price_dropdown_img {
+        width: 15px;
+        height: 9px;
+        margin-left: -60px;
+        margin-top: -10px;
+    }
+    .price h2 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 1.25px;
+        color: #FFFFFE;
+    }
+    .dropdown_price_info_toggle {
+        display: block;
+        position: absolute;
+        margin-left: -255px;
+        margin-top: -60px;
+        width: 355px;
+        height: 300px;
+    }
+    .dropdown_price_info_toggle h2 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .dropdown_price_info_toggle #dropdown_close {
+        margin-top: -37px;
+        margin-left: 265px;
+        width: 15px;
+        height: 15px;
+    }
+    #shipping_address_btn {
+        background: #2962FF;
+        border-radius: 100px;
+        width: 80%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .container .Contactus_table1_inputbox>input {
+        width: 300px;
+    }
+    .Contactus_table1_inputbox input {
+        width: 300px;
+    }
+    .Address_table2 .input_container .Contactus_table1_inputbox>select {
+        width: 300px;
+    }
+}

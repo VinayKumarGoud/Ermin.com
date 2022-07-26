@@ -1,0 +1,243 @@
+.Contactus {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.Contactus .Contactus_table1 {
+    width: 82%;
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Contactus_table2> map{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+.Contactus .Contactus_table1_info {
+    width: 40%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.Contactus .Contactus_table1_input {
+    width: 45%;
+    height: 600px;
+    margin-top: 60px;
+    margin-right: -5%;
+}
+
+.Contactus .Contactus_table1_info h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFE;
+    margin-left: -0%;
+}
+
+.mail {
+    display: flex;
+    margin-top: 64px;
+}
+
+.mail>h2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C7C7C7;
+    margin-left: 20px;
+}
+
+.address {
+    display: flex;
+    margin-top: 40px;
+   
+}
+
+
+.address h2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C7C7C7;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.number {
+    display: flex;
+    margin-top: 40px;
+}
+
+.number>h2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C7C7C7;
+    margin-left: 20px;
+}
+
+.Contactus .Contactus_table1_input h3 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFE;
+    margin-left: -0%;
+}
+
+.Contactus .Contactus_table1_input .input_container {
+    display: flex;
+    width: 100%;
+}
+
+.Contactus .Contactus_table1_input .input_container>div {
+    width: 47%;
+}
+
+.Contactus .Contactus_table1_inputbox h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFE;
+    margin-top: 24px;
+}
+
+.Contactus .Contactus_table1_inputbox input {
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    padding-left: 14px;
+    width: 90%;
+    height: 50px;
+    margin-top: -150px;
+}
+
+#Message_box {
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    width: 90%;
+    height: 104px;
+    margin-top: -10px;
+}
+
+.Contactus #container2_btn {
+    background: #2962FF;
+    border-radius: 100px;
+    width: 90%;
+    height: 64px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+#map_img {
+    margin-top: 0px;
+}
+
+@media screen and (max-width:1024px) {
+    .Contactus .Contactus_table1 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media screen and (max-width:1220px) {
+    .Contactus .Contactus_table1_info {
+        width: 80%;
+        
+    }
+    
+    .Contactus .Contactus_table1_input {
+        width: 95%;
+        margin-left: 8%;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .Contactus .Contactus_table1_info {
+        width: 580px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+    
+    .address>img {
+        margin-top: 0px;
+    }
+    .Contactus .Contactus_table1_input {
+        margin-top: -50px;
+    }
+   
+}
+
+@media screen and (max-width: 480px) {
+    .Contactus .Contactus_table1_info {
+        width: 320px;
+        height: 450px;
+        margin-left: -0px;
+        margin-top: 60px;
+    }
+    .Contactus .Contactus_table1_input .input_container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .Contactus .Contactus_table1_input .input_container>div {
+        width: 100%;
+    }
+    .Contactus .Contactus_table1_input {
+        margin-top: 50px;
+    }
+    .Contactus .Contactus_table1_info h3 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .mail {
+        display: flex;
+        margin-top: 64px;
+    }
+    .mail>h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .address {
+        display: flex;
+        margin-top: 40px;
+    }
+    .address>img {
+        margin-top: -70px;
+    }
+    .address>h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .Contactus .Contactus_table1_input h3 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+}
+
+#map_img {
+    margin-top: 70px;
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    #map_img {
+        margin-top: 80px;
+    }
+}

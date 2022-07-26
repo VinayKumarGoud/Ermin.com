@@ -1,0 +1,726 @@
+.payment_navbar {
+    background: #0E0F11;
+    display: flex;
+    align-items: center;
+}
+
+.payment_navlinks {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.payment_navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment_nav-item {
+    list-style: none;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.payment_nav-item a:hover {
+    border-bottom: 3px solid white;
+}
+
+.payment_nav-item a#active {
+    border-bottom: 3px solid white;
+}
+
+.payment_nav-link {
+    font-family: Montserrat;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 30px 20px;
+    /* Text */
+    color: #FFFFFE;
+}
+
+.right-menu {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.right-menu .payment_nav-item {
+    margin-left: 140px;
+    margin-right: -70px;
+}
+
+.payment_dropdown-links .payment_nav-item {
+    margin-left: -30px;
+}
+
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: #121416;
+    min-width: 158px;
+    min-height: 104px;
+    z-index: 1;
+    margin-left: 140px;
+}
+
+.dropdown-links a :hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.right-menu:hover .dropdown-links {
+    display: block;
+}
+
+.dropdown_img:hover .payment_dropdown-links {
+    display: block;
+}
+
+@media screen and (max-width:100vw) {
+    .right-menu {
+        display: none;
+    }
+    .payment_navlinks {
+        display: block;
+    }
+    .dropdown_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .payment_nav-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .payment_navlinks {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .right-menu {
+        display: block;
+        margin-top: -20px;
+    }
+    .payment_navlinks {
+        display: none;
+    }
+    .dropdown-links {
+        margin-top: 40px;
+    }
+    .dropdown_img {
+        display: block;
+        margin-left: 280px;
+        margin-top: -14px;
+    }
+    .dropdown-links .payment_nav-link {
+        padding: 12px 25px;
+        /* Text */
+        color: #FFFFFE;
+    }
+}
+
+.payment_table2 {
+    background: #0E0F11;
+    width: 100%;
+    height: 100%;
+}
+
+.payment_table2_container1 {
+    width: 80%;
+    margin-left: 12%;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment_table2_container1>div {
+    width: 352px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    background-color: #121416;
+}
+
+.payment_table2_container1 .dropdown_price_info {
+    margin-top: -0px;
+}
+
+.payment_table2_box h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 25px;
+    margin-left: 24px;
+    color: #FFFFFE;
+}
+
+.payment_table2_box h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-left: 24px;
+    color: #C7C7C7;
+}
+
+.payment_table2_box h3 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 4px;
+    margin-left: 24px;
+    color: #C7C7C7;
+}
+
+.payment_table2_box p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    width: 304px;
+    margin-top: 4px;
+    margin-left: 24px;
+    color: #C7C7C7;
+}
+
+.payment_table2_box #Learn_btn {
+    border: 1px solid #FFFFFE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 40%;
+    margin-left: 0%;
+    margin-top: 24px;
+    margin-left: 24px;
+    align-items: center;
+}
+
+.payment .dropdown_price_info {
+    background-color: #121416;
+}
+
+.payment_table2_box #edit_img {
+    margin-top: -27%;
+    margin-left: 11%;
+}
+
+.cart {
+    height: 300px;
+}
+
+@media screen and (max-width:1024px) {
+    .payment_table2_container1 .dropdown_price_info {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .payment_table2_container1>div {
+        width: 292px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+    .payment_table2_container1 {
+        width: 90%;
+        margin-left: 8%;
+    }
+    .payment_table2_container1 .cart {
+        margin-top: 20px;
+        margin-left: 60px;
+        width: 246px;
+        height: 90px;
+    }
+    .payment_table2_container1 .price {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 200px;
+        cursor: pointer;
+    }
+    .payment_table2_container1 .dropdown_price_info_toggle {
+        margin-top: -80px;
+        margin-left: -105px;
+    }
+    .payment_table2_box h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .payment_table2_box h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .payment_table2_box h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .payment_table2_box p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 260px;
+    }
+    .payment_table2_box #Learn_btn {
+        width: 85%;
+    }
+    .payment_table2_box #edit_img {
+        margin-top: -33%;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .payment_table2_container1>div {
+        width: 330px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+    .payment_table2_box {
+        height: 412px;
+    }
+    .payment_table2_container1 {
+        width: 90%;
+        margin-left: 8%;
+    }
+    .payment_table2_container1 .cart {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .payment_table2_container1 .price {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 250px;
+    }
+    .payment_table2_container1 .dropdown_price_info_toggle {
+        margin-top: -80px;
+        margin-left: -40px;
+        height: 300px;
+    }
+    .payment_table2_box h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .payment_table2_box h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .payment_table2_box h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .payment_table2_box p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 260px;
+    }
+    .payment_table2_box #Learn_btn {
+        margin-left: 15px;
+        margin-top: 30px;
+        width: 85%;
+    }
+    .payment_table2_box #edit_img {
+        margin-top: -26%;
+        margin-left: 27%;
+    }
+}
+
+/***************End of Table 2 *******************/
+
+/* *********************Start of Table 3***************** */
+
+.payment_table3 {
+    background: #0E0F11;
+    width: 100%;
+    height: 100%;
+}
+
+.payment_table3 h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    margin-left: 12%;
+    padding-top: 5%;
+    color: #FFFFFE;
+}
+
+.payment_method {
+    width: 66%;
+    margin-top: 78px;
+    margin-left: 4%;
+}
+
+.payment_method_box1 {
+    margin-left: 12%;
+    margin-bottom: 24px;
+    width: 80%;
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.payment_method_box1 img {
+    margin-left: 24px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.payment_method_box1 h2 {
+    margin-left: 70px;
+    margin-top: -52px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+}
+
+.card_details {
+    margin-left: 70px;
+    margin-top: 32px;
+}
+
+.card_details .Contactus_table1_inputbox h4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: -5px;
+    color: #FFFFFF;
+}
+
+.card_details .Contactus_table1_inputbox input {
+    width: 90%;
+}
+
+.card_details .container {
+    display: flex;
+}
+
+.card_details .container .Contactus_table1_inputbox>input {
+    width: 290px;
+}
+
+.card_details #phone_number {
+    margin-left: 30px;
+}
+
+#card_input {
+    margin-bottom: 30px;
+}
+
+.payment_method_box2 {
+    margin-left: 12%;
+    width: 80%;
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.payment_method_box2 img {
+    margin-left: 24px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.payment_method_box2 h2 {
+    margin-left: 70px;
+    margin-top: -52px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+}
+
+.net_banking_details {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-top: 32px;
+}
+
+.net_banking_details .Contactus_table1_inputbox>select {
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    width: 230px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.payment_method_box3 {
+    margin-left: 12%;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    width: 80%;
+    background: #121416;
+    border: 1px solid rgba(255, 255, 254, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.payment_method_box3 img {
+    margin-left: 24px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.payment_method_box3 h2 {
+    margin-left: 70px;
+    margin-top: -52px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+}
+
+.upi_details {
+    margin-left: 70px;
+    margin-top: 32px;
+}
+
+.upi_details .Contactus_table1_inputbox h4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: -5px;
+    color: #FFFFFF;
+}
+
+.upi_details .Contactus_table1_inputbox input {
+    width: 65%;
+}
+
+#upi_details_btn {
+    background: #2962FF;
+    border-radius: 8px;
+    width: 120px;
+    height: 50px;
+    margin-left: 70%;
+    margin-top: -11.5%;
+    margin-bottom: 55px;
+    padding-top: 12px;
+}
+
+.terms_conditions {
+    margin-left: 15%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.terms_conditions h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFE;
+    margin-left: 20px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.terms_conditions h2>mark {
+    font-weight: bold;
+ background-color: transparent;
+    color: #FFFFFF;
+    ;
+}
+.terms_conditions h2>a {
+    font-weight: bold;
+ 
+    color: #FFFFFF;
+    ;
+}
+
+#terms_conditions_btn {
+    width: 30%;
+    padding: 15px;
+    background: #2962FF;
+    border-radius: 100px;
+    margin-left: 35%;
+    margin-top: 65px;
+}
+
+.margin {
+    height: 30px;
+}
+
+@media screen and (max-width: 100vw) {
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .payment_method {
+        width: 88%;
+        margin-top: 78px;
+        margin-left: 4%;
+    }
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 275px;
+    }
+    .net_banking_details .Contactus_table1_inputbox>select {
+        width: 230px;
+        margin-left: 50px;
+    }
+    #upi_details_btn {
+        margin-top: -12.5%;
+    }
+    .terms_conditions {
+        margin-left: 19%;
+    }
+    .terms_conditions h2 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    #terms_conditions_btn {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .payment_method {
+        width: 88%;
+        margin-top: 78px;
+        margin-left: 4%;
+    }
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 275px;
+    }
+    .net_banking_details .Contactus_table1_inputbox>select {
+        width: 230px;
+        margin-left: 50px;
+    }
+    #upi_details_btn {
+        margin-top: -12.5%;
+    }
+    .terms_conditions {
+        margin-left: 19%;
+    }
+    .terms_conditions h2 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    #terms_conditions_btn {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .payment_method {
+        margin-left: -4px;
+        width: 98%;
+    }
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 220px;
+    }
+    .net_banking_details .Contactus_table1_inputbox>select {
+        width: 230px;
+        margin-left: 50px;
+    }
+    #upi_details_btn {
+        margin-top: -15.5%;
+    }
+    .terms_conditions {
+        margin-left: 19%;
+    }
+    .terms_conditions h2 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    #terms_conditions_btn {
+        width: 80%;
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .payment_table3 h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .payment_method {
+        margin-left: -4px;
+        width: 98%;
+    }
+    .payment_method_box1 h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .payment_method_box2 h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .payment_method_box3 h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .card_details {
+        margin-left: 25px;
+        margin-top: 32px;
+    }
+    .card_details .container {
+        display: flex;
+        margin-left: -5px;
+    }
+    .card_details #phone_number {
+        margin-left: 0px;
+    }
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 265px;
+    }
+    .net_banking_details .Contactus_table1_inputbox>select {
+        width: 230px;
+        margin-left: -30px;
+    }
+    #select_option1 {
+        display: none;
+    }
+    .upi_details {
+        margin-left: 9%;
+    }
+    #upi_details_btn {
+        margin-top: -0.5%;
+        margin-left: 0%;
+        width: 90%;
+    }
+    .upi_details .Contactus_table1_inputbox input {
+        width: 90%;
+    }
+    .terms_conditions {
+        margin-left: 9%;
+    }
+    .terms_conditions h2 {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .terms_conditions img {
+        width: 20px;
+        height: 20px;
+    }
+    #terms_conditions_btn {
+        width: 80%;
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .card_details .container .Contactus_table1_inputbox>input {
+        width: 230px;
+    }
+}

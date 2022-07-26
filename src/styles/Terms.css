@@ -1,0 +1,33 @@
+#terms {
+    background-color: #0E0F11;
+    color: #c7c7c7;
+    padding-bottom: 100px;
+    margin-bottom: -20px;
+}
+
+#terms h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 4%;
+    color: #fff;
+
+}
+
+#terms h3 {
+    font-size: 30px;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+#terms p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFE;
+    opacity: 0.5;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 2%;
+}
