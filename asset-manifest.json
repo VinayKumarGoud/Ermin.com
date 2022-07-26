@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ermin.com/static/css/main.11e759cb.css",
+    "main.js": "/Ermin.com/static/js/main.03408915.js",
+    "static/js/787.a7c8c02d.chunk.js": "/Ermin.com/static/js/787.a7c8c02d.chunk.js",
+    "index.html": "/Ermin.com/index.html",
+    "main.11e759cb.css.map": "/Ermin.com/static/css/main.11e759cb.css.map",
+    "main.03408915.js.map": "/Ermin.com/static/js/main.03408915.js.map",
+    "787.a7c8c02d.chunk.js.map": "/Ermin.com/static/js/787.a7c8c02d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11e759cb.css",
+    "static/js/main.03408915.js"
+  ]
+}
